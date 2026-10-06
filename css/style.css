@@ -27,8 +27,9 @@ font-family:'Arial',sans-serif;
 
 .background{
 
-
 min-height:100vh;
+
+width:100%;
 
 display:flex;
 
@@ -36,14 +37,24 @@ justify-content:center;
 
 align-items:center;
 
+padding:20px;
+
 
 background:
 
 linear-gradient(
-135deg,
-#111827,
-#2563eb
-);
+rgba(15,23,42,0.75),
+rgba(30,64,175,0.65)
+),
+
+url("../img/fondo.jpg");
+
+
+background-size:cover;
+
+background-position:center;
+
+background-repeat:no-repeat;
 
 
 }
@@ -59,15 +70,26 @@ linear-gradient(
 .quiz-box{
 
 
-width:420px;
+width:100%;
 
-background:white;
 
-padding:40px;
+max-width:600px;
+
+
+min-height:auto;
+
+
+padding:35px;
+
+
+background:
+
+rgba(255,255,255,0.92);
+
+
 
 border-radius:25px;
 
-text-align:center;
 
 
 box-shadow:
@@ -75,9 +97,19 @@ box-shadow:
 0 20px 40px rgba(0,0,0,.25);
 
 
-animation:
 
-entrada .8s ease;
+backdrop-filter:
+
+blur(10px);
+
+
+
+position:relative;
+
+
+
+z-index:2;
+
 
 
 }
