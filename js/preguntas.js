@@ -1,53 +1,33 @@
 // ======================================
 // BANCO DE PREGUNTAS
-// SISTEMA NACIONAL DE CONTROL
+// CONTROL GUBERNAMENTAL - OCI
 // ======================================
 
 
 const bancoPreguntas = [
 
 
-{
-pregunta:
-"¿Qué se entiende por Sistema Nacional de Control?",
-
-opciones:[
-
-"Un conjunto de instituciones encargadas de administrar el presupuesto público.",
-
-"Un conjunto de órganos, normas y procedimientos destinados a realizar el control de la gestión pública.",
-
-"Una institución encargada exclusivamente de investigar delitos.",
-
-"Un sistema encargado de contratar a los servidores públicos."
-
-],
-
-respuesta:
-"Un conjunto de órganos, normas y procedimientos destinados a realizar el control de la gestión pública."
-
-},
-
-
 
 {
 pregunta:
-"¿Cuál es la principal institución del Sistema Nacional de Control?",
+"Una municipalidad está ejecutando una contratación. El OCI advierte una situación que podría afectar el proceso, pero la entidad todavía puede corregirla. ¿Cuál sería la actuación más coherente con el control?",
+
 
 opciones:[
 
-"Ministerio de Economía y Finanzas.",
+"Esperar el término para evaluar el resultado.",
 
-"Defensoría del Pueblo.",
+"Determinar si existe responsabilidad administrativa.",
 
-"Contraloría General de la República.",
+"Advertir la situación durante el proceso.",
 
-"Presidencia del Consejo de Ministros."
+"Disponer directamente cómo debe continuar."
 
 ],
 
+
 respuesta:
-"Contraloría General de la República."
+"Advertir la situación durante el proceso."
 
 },
 
@@ -56,22 +36,24 @@ respuesta:
 
 {
 pregunta:
-"¿Cuál es una de las principales finalidades del control gubernamental?",
+"En una entidad se detecta una irregularidad después de haberse realizado una contratación. Sin embargo, el informe no determina automáticamente una sanción. ¿Cuál sería la interpretación más adecuada?",
+
 
 opciones:[
 
-"Controlar las actividades personales de los ciudadanos.",
+"El control identifica hechos para su evaluación.",
 
-"Verificar que los recursos y bienes del Estado sean utilizados correctamente.",
+"El informe reemplaza el procedimiento administrativo.",
 
-"Elaborar las leyes que regulan al Estado.",
+"La irregularidad queda sancionada con el informe.",
 
-"Administrar directamente todas las entidades públicas."
+"La entidad debe anular siempre la contratación."
 
 ],
 
+
 respuesta:
-"Verificar que los recursos y bienes del Estado sean utilizados correctamente."
+"El control identifica hechos para su evaluación."
 
 },
 
@@ -80,22 +62,24 @@ respuesta:
 
 {
 pregunta:
-"¿Qué ley establece las normas fundamentales del Sistema Nacional de Control?",
+"En Kosñipata, el OCI había advertido anteriormente una situación relacionada con la contratación y, pese a ello, posteriormente se identificó nuevamente un hecho cuestionado. ¿Qué elemento genera mayor preocupación?",
+
 
 opciones:[
 
-"Ley N.° 27444",
+"Que el contrato haya tenido una duración determinada.",
 
-"Ley N.° 27785",
+"Que el funcionario haya desempeñado otra función.",
 
-"Ley N.° 27806",
+"Que la contratación se haya realizado en otro momento.",
 
-"Ley N.° 30057"
+"Que una situación advertida vuelva a presentarse."
 
 ],
 
+
 respuesta:
-"Ley N.° 27785"
+"Que una situación advertida vuelva a presentarse."
 
 },
 
@@ -104,22 +88,24 @@ respuesta:
 
 {
 pregunta:
-"¿Qué aspecto puede revisar el control gubernamental dentro de una entidad pública?",
+"Una entidad afirma que cumplió con sus objetivos institucionales y, por ello, considera que no existe un problema en la gestión. Sin embargo, el control observa un uso poco adecuado de los recursos. ¿Qué aspecto permite cuestionar esa conclusión?",
+
 
 opciones:[
 
-"El uso de los recursos públicos y el cumplimiento de las normas.",
+"El cumplimiento de las metas garantiza la eficiencia.",
 
-"Las preferencias personales de los trabajadores.",
+"Alcanzar metas no excluye revisar el uso de recursos.",
 
-"Las actividades familiares de los funcionarios.",
+"Los recursos no forman parte del control gubernamental.",
 
-"Las opiniones políticas de los ciudadanos."
+"La eficiencia solamente se revisa al finalizar el año."
 
 ],
 
+
 respuesta:
-"El uso de los recursos públicos y el cumplimiento de las normas."
+"Alcanzar metas no excluye revisar el uso de recursos."
 
 },
 
@@ -128,22 +114,24 @@ respuesta:
 
 {
 pregunta:
-"¿Por qué es importante que exista un Sistema Nacional de Control?",
+"Antes de formalizar una contratación, el área responsable no verifica adecuadamente si correspondía realizar un concurso público. Posteriormente, el OCI observa el contrato. ¿Qué pudo reducir principalmente ese riesgo?",
+
 
 opciones:[
 
-"Porque permite supervisar la gestión pública y contribuir al uso adecuado de los recursos del Estado.",
+"Una revisión posterior del expediente.",
 
-"Porque reemplaza a todas las autoridades de las entidades públicas.",
+"Una recomendación después de firmado el contrato.",
 
-"Porque se encarga de elaborar el presupuesto de cada ciudadano.",
+"Una verificación previa de los requisitos.",
 
-"Porque elimina la necesidad de que existan normas públicas."
+"Un seguimiento luego de concluida la contratación."
 
 ],
 
+
 respuesta:
-"Porque permite supervisar la gestión pública y contribuir al uso adecuado de los recursos del Estado."
+"Una verificación previa de los requisitos."
 
 },
 
@@ -152,22 +140,24 @@ respuesta:
 
 {
 pregunta:
-"Una municipalidad compra materiales para construir una obra pública, pero durante una revisión se descubre que parte de los materiales no fueron utilizados. ¿Qué debería analizar el control?",
+"Durante una actividad, el OCI comunica una situación que podría afectar el cumplimiento de los objetivos. La entidad responde que el órgano de control debería solucionar directamente el problema. ¿Qué sería lo más adecuado?",
+
 
 opciones:[
 
-"La cantidad de trabajadores de la municipalidad.",
+"La entidad debe adoptar las medidas correspondientes.",
 
-"El uso, destino y manejo de los recursos públicos.",
+"El OCI debe asumir la gestión del proceso.",
 
-"La opinión personal del alcalde.",
+"La Contraloría debe ejecutar la actividad observada.",
 
-"El número de habitantes del distrito."
+"El órgano de control debe reemplazar al responsable."
 
 ],
 
+
 respuesta:
-"El uso, destino y manejo de los recursos públicos."
+"La entidad debe adoptar las medidas correspondientes."
 
 },
 
@@ -176,22 +166,24 @@ respuesta:
 
 {
 pregunta:
-"Una entidad pública realiza el pago por una obra que figura como terminada, pero al realizar una visita se observa que todavía está inconclusa. ¿Qué debería verificarse?",
+"Una contratación ya terminó y recién después se examinan los documentos, hechos y condiciones bajo los cuales se realizó. ¿Qué característica permite identificar el tipo de control?",
+
 
 opciones:[
 
-"Si la obra realmente fue ejecutada de acuerdo con lo contratado y si el pago estuvo justificado.",
+"Se busca anticipar un riesgo antes de actuar.",
 
-"Si los trabajadores tienen experiencia.",
+"Se acompaña una actividad mientras está en curso.",
 
-"Si la población conoce al alcalde.",
+"Se advierte una situación antes de que produzca efectos.",
 
-"Si la entidad tiene suficientes oficinas."
+"Se examinan actuaciones que ya ocurrieron."
 
 ],
 
+
 respuesta:
-"Si la obra realmente fue ejecutada de acuerdo con lo contratado y si el pago estuvo justificado."
+"Se examinan actuaciones que ya ocurrieron."
 
 },
 
@@ -200,22 +192,24 @@ respuesta:
 
 {
 pregunta:
-"Durante una revisión se encuentra que una entidad utilizó dinero público para una actividad que no estaba contemplada en su finalidad. ¿Qué debería hacer el control?",
+"Un informe señala una indicación de irregularidad y recomienda que, de corresponder, se realice el deslinde de responsabilidades. ¿Qué error debería evitarse al interpretar esa conclusión?",
+
 
 opciones:[
 
-"Ignorar el hecho porque se utilizó dinero de la misma entidad.",
+"Considerar que el hecho requiere evaluación.",
 
-"Analizar si el uso de los recursos fue correcto y si se incumplieron las normas.",
+"Reconocer que pueden existir responsabilidades.",
 
-"Aprobar automáticamente el gasto.",
+"Asumir que la responsabilidad ya fue determinada.",
 
-"Suspender todas las actividades de la entidad."
+"Considerar las recomendaciones formuladas."
 
 ],
 
+
 respuesta:
-"Analizar si el uso de los recursos fue correcto y si se incumplieron las normas."
+"Asumir que la responsabilidad ya fue determinada."
 
 },
 
@@ -224,22 +218,24 @@ respuesta:
 
 {
 pregunta:
-"Una municipalidad informa que una obra costó S/ 500 000, pero durante la revisión se encuentran documentos que generan dudas sobre algunos gastos. ¿Qué sería necesario hacer?",
+"Imagina que en Kosñipata el OCI hubiera intervenido únicamente después de que se realizaran varias contrataciones cuestionadas. ¿Qué aspecto del control habría quedado más debilitado?",
+
 
 opciones:[
 
-"Revisar la documentación y verificar si los gastos realizados corresponden a la obra.",
+"La evaluación de los hechos ocurridos.",
 
-"Dar por terminado el caso sin revisar los documentos.",
+"La posibilidad de prevenir riesgos oportunamente.",
 
-"Preguntar únicamente a los vecinos.",
+"La elaboración de recomendaciones posteriores.",
 
-"Eliminar los documentos que generan dudas."
+"La comunicación de los resultados obtenidos."
 
 ],
 
+
 respuesta:
-"Revisar la documentación y verificar si los gastos realizados corresponden a la obra."
+"La posibilidad de prevenir riesgos oportunamente."
 
 },
 
@@ -248,49 +244,26 @@ respuesta:
 
 {
 pregunta:
-"Una entidad pública detecta un problema durante la ejecución de una obra antes de que esta termine. ¿Por qué sería importante realizar un control oportuno?",
+"Una entidad sostiene que, como el OCI ya había emitido una advertencia, cualquier nueva contratación realizada posteriormente sería automáticamente responsabilidad del órgano de control. ¿Cuál sería la mejor respuesta?",
+
 
 opciones:[
 
-"Porque permite advertir situaciones que podrían afectar el cumplimiento de la obra y tomar medidas.",
+"Sí, porque el OCI debe garantizar que se cumpla la advertencia.",
 
-"Porque permite cancelar automáticamente la obra.",
+"Sí, porque el OCI asume las decisiones después de observar.",
 
-"Porque evita que la población conozca el problema.",
+"No, porque las advertencias eliminan toda responsabilidad institucional.",
 
-"Porque reemplaza al responsable de la obra."
-
-],
-
-respuesta:
-"Porque permite advertir situaciones que podrían afectar el cumplimiento de la obra y tomar medidas."
-
-},
-
-
-
-
-{
-pregunta:
-"Después de una acción de control se identifica una irregularidad en el uso de recursos públicos. ¿Qué debería considerarse para evitar que vuelva a ocurrir?",
-
-opciones:[
-
-"Analizar las causas del problema y establecer medidas de corrección o mejora.",
-
-"Ocultar la irregularidad para evitar conflictos.",
-
-"Evitar futuras acciones de control.",
-
-"Culpar directamente a todos los trabajadores."
+"No, porque la entidad mantiene sus funciones de gestión."
 
 ],
 
+
 respuesta:
-"Analizar las causas del problema y establecer medidas de corrección o mejora."
+"No, porque la entidad mantiene sus funciones de gestión."
 
 }
-
 
 
 ];
@@ -298,8 +271,9 @@ respuesta:
 
 
 
+
 // ======================================
-// SELECCIONAR 10 PREGUNTAS ALEATORIAS
+// SELECCIÓN ALEATORIA DE PREGUNTAS
 // ======================================
 
 
@@ -312,30 +286,39 @@ let preguntasMezcladas = [...bancoPreguntas];
 
 // Mezclar preguntas
 
-preguntasMezcladas.sort(()=>Math.random()-0.5);
+preguntasMezcladas.sort(
+()=>Math.random()-0.5
+);
 
 
 
-// Tomar solo 10
+// Seleccionar 10
 
-let seleccionadas = preguntasMezcladas.slice(0,10);
+let seleccionadas = 
+preguntasMezcladas.slice(0,10);
+
 
 
 
 // Mezclar alternativas
 
-seleccionadas.forEach(pregunta=>{
+seleccionadas.forEach(p=>{
 
 
-let correcta = pregunta.respuesta;
-
-
-
-pregunta.opciones.sort(()=>Math.random()-0.5);
+let correcta = p.respuesta;
 
 
 
-pregunta.respuesta = pregunta.opciones.indexOf(correcta);
+p.opciones.sort(
+()=>Math.random()-0.5
+);
+
+
+
+// Actualizar posición correcta
+
+p.respuesta = 
+p.opciones.indexOf(correcta);
 
 
 
@@ -349,6 +332,6 @@ return seleccionadas;
 }
 
 
-// Crear preguntas para el juego
+
 
 const preguntas = obtenerPreguntasAleatorias();
